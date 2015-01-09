@@ -1,0 +1,37 @@
+footer(role='contentinfo')
+    .container
+        .footer__logo
+            img.footer__logo-img
+            span.footer__logo-text Эппл шоп
+        .footer__nav
+            ul.footer__nav-list
+                li.footer__nav-item
+                    .footer__nav-title О магазине
+                        each  link in ["О нас", "Наши цены", "Наши скидки", "Акции"]
+                            li.footer__nav-menu
+                                a.footer__nav-link= link
+                li.footer__nav-item
+                    .footer__nav-title Каталог
+                        each  link in ["Смартфоны", "Планшеты", "Компьютеры", "Аксесуары"]
+                            li.footer__nav-menu
+                                a.footer__nav-link= link
+                li.footer__nav-item
+                    .footer__nav-title Контакты
+                        each  link in ["Телефоны", "Адреса", "Карта проезда", "Обратная связь"]
+                            li.footer__nav-menu
+                                a.footer__nav-link= link
+        .footer__social
+            .footer__shops
+                a.footer__appstore
+                a.footer__googleplay
+
+            ul.footer__social-list
+                li.footer__social-item
+                    a.footer__social-link.footer__social-link_vk
+                li.footer__social-item
+                    a.footer__social-link.footer__social-link_fb
+                li.footer__social-item
+                    a.footer__social-link.footer__social-link_tw
+
+
+
