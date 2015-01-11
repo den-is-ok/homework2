@@ -1,37 +1,37 @@
-footer(role='contentinfo')
+footer(role='contentinfo').footer
     .container
         .footer__logo
-            img.footer__logo-img
-            span.footer__logo-text Эппл шоп
-        .footer__nav
-            ul.footer__nav-list
-                li.footer__nav-item
-                    .footer__nav-title О магазине
-                        each  link in ["О нас", "Наши цены", "Наши скидки", "Акции"]
-                            li.footer__nav-menu
-                                a.footer__nav-link= link
-                li.footer__nav-item
-                    .footer__nav-title Каталог
-                        each  link in ["Смартфоны", "Планшеты", "Компьютеры", "Аксесуары"]
-                            li.footer__nav-menu
-                                a.footer__nav-link= link
-                li.footer__nav-item
-                    .footer__nav-title Контакты
-                        each  link in ["Телефоны", "Адреса", "Карта проезда", "Обратная связь"]
-                            li.footer__nav-menu
-                                a.footer__nav-link= link
-        .footer__social
-            .footer__shops
-                a.footer__appstore
-                a.footer__googleplay
-
-            ul.footer__social-list
-                li.footer__social-item
-                    a.footer__social-link.footer__social-link_vk
-                li.footer__social-item
-                    a.footer__social-link.footer__social-link_fb
-                li.footer__social-item
-                    a.footer__social-link.footer__social-link_tw
-
-
+            img(src="../img/logo/footer__logo.png").footer__logo-img
+            .footer__logo-text ЭпплShop
+        ul.footer__menu
+           li.footer__menu-item
+               .footer__menu-title О магазине
+               ul.footer__menu-inners
+                   each title in ["О нас", "Наши цены", "Наши скидки", "Акции"]
+                        li.footer__menu-options
+                            a(href="#").footer__menu-link= title
+           li.footer__menu-item
+                .footer__menu-title Каталог
+                ul.footer__menu-inners
+                    each title in ["Смартфоны", "Планшеты", "Компьютеры", "Аксессуары"]
+                       li.footer__menu-options
+                           a(href="#").footer__menu-link= title
+            li.footer__menu-item
+                .footer__menu-title Контакты
+                ul.footer__menu-inners
+                    each title in ["Телефоны", "Адреса", "Карта проезда", "Обратная связь"]
+                        li.footer__menu-options
+                            a(href="#").footer__menu-link= title
+        .footer__socials
+            ul.footer__socials-stores
+                li.footer__socials-store
+                    a(href="#").footer__socials-store-link
+                        img(src="../img/icons/as.png")
+                li.footer__socials-store
+                    a(href="").footer__socials-store-link
+                        img(src="../img/icons/gp.png")
+            ul.footer__socials-networks
+                each network in ['vk', 'fb', 'tw']
+                    li(class="footer__socials-network footer__socials-network_" + network)
+                        a(href="#").footer__socials-link
 

@@ -1,8 +1,160 @@
-/* --------- common --------- */
-.some-div__child {
-  width: 200px;
-  height: 300px;
-  background: red;
-  border: 1px solid #000;
+/* MIXINS */
+.inlineblock {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1!ie;
 }
-
+.clearfix {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1!ie;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/* --------- common --------- */
+.content__inner {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1!ie;
+}
+.content__inner:before,
+.content__inner:after {
+  content: "";
+  display: table;
+}
+.content__inner:after {
+  clear: both;
+}
+.content__options-select {
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1!ie;
+  margin-left: 3px;
+}
+.content__options-select.opened .selectbox__display {
+  border-bottom: 0 none;
+  -webkit-border-radius: 3px 3px 0 0;
+  -moz-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding-bottom: 1px;
+}
+.content__options-select.opened .selectbox__display:hover {
+  background: #edecec;
+}
+.content__options-select.opened .selectbox__dropdown {
+  left: 0;
+  right: 0;
+  width: 135px;
+}
+.content__options-select .selectbox__dropdown {
+  position: absolute;
+  top: 100%;
+  width: 133px;
+  right: auto;
+  left: -9999px;
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  border-top: 0 none;
+  -webkit-border-radius: 0 0 5px 5px;
+  -moz-border-radius: 0 0 5px 5px;
+  border-radius: 0 0 5px 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  overflow: hidden;
+  z-index: 1000;
+}
+.content__options-select .selectbox__inner {
+  position: relative;
+}
+.content__options-select .selectbox__display {
+  width: 133px;
+  border: 1px solid #bdbdbd;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #ffffff;
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1!ie;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+}
+.content__options-select .selectbox__display:before,
+.content__options-select .selectbox__display:after {
+  content: "";
+  display: table;
+}
+.content__options-select .selectbox__display:after {
+  clear: both;
+}
+.content__options-select .selectbox__display-title {
+  float: left;
+  width: 102px;
+}
+.content__options-select .selectbox__title-text {
+  font-size: 12px;
+  line-height: 27px;
+  color: #686868;
+  padding-left: 11px;
+  height: 27px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.content__options-select .selectbox__display-btn {
+  width: 26px;
+  float: left;
+  height: 27px;
+  background: transparent;
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+.content__options-select .selectbox__btn-icon {
+  width: 26px;
+  height: 27px;
+  background: url('../img/decor/select-tr.png') center center no-repeat;
+}
+.content__options-select .selectbox__dropdown-item.selected .selectbox__item-link {
+  background: #edecec;
+}
+.content__options-select .selectbox__item-link {
+  font-size: 12px;
+  line-height: 14px;
+  color: #686868;
+  padding-left: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+  display: block;
+}
+.content__options-select .selectbox__item-link:hover {
+  background: #edecec;
+}
+.content__options-select .selectbox__title-text {
+  font-size: 14px;
+  color: #5c7b98;
+}
+.content__options-select .selectbox__display-btn {
+  background-color: #00b9fe;
+}
+.content__options-select .selected .selectbox__item-link {
+  color: #bed1e3;
+  background-color: transparent !important;
+}
+.content__options-select .selectbox__dropdown {
+  max-height: 120px;
+  overflow: auto;
+}

@@ -1,0 +1,143 @@
+/* --------- fonts --------- */
+@font-face {
+  font-family: 'elektra_light_probold';
+  src: url('../../fonts/font-webfont.eot');
+  src: url('../../fonts/font-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/font-webfont.woff2') format('woff2'), url('../../fonts/font-webfont.woff') format('woff'), url('../../fonts/font-webfont.ttf') format('truetype'), url('../../fonts/font-webfont.svg#elektra_light_probold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'elektra_medium_proitalic';
+  src: url('../../fonts/elektra_medium_pro_italic-webfont.eot');
+  src: url('../../fonts/elektra_medium_pro_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/elektra_medium_pro_italic-webfont.woff2') format('woff2'), url('../../fonts/elektra_medium_pro_italic-webfont.woff') format('woff'), url('../../fonts/elektra_medium_pro_italic-webfont.ttf') format('truetype'), url('../../fonts/elektra_medium_pro_italic-webfont.svg#elektra_medium_proitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'elektra_light_proregular';
+  src: url('../../fonts/elektra_light_pro-webfont.eot');
+  src: url('../../fonts/elektra_light_pro-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/elektra_light_pro-webfont.woff2') format('woff2'), url('../../fonts/elektra_light_pro-webfont.woff') format('woff'), url('../../fonts/elektra_light_pro-webfont.ttf') format('truetype'), url('../../fonts/elektra_light_pro-webfont.svg#elektra_light_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'elektra_medium_proregular';
+  src: url('../../fonts/elektra_medium_pro-webfont.eot');
+  src: url('../../fonts/elektra_medium_pro-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/elektra_medium_pro-webfont.woff2') format('woff2'), url('../../fonts/elektra_medium_pro-webfont.woff') format('woff'), url('../../fonts/elektra_medium_pro-webfont.ttf') format('truetype'), url('../../fonts/elektra_medium_pro-webfont.svg#elektra_medium_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.electra {
+  font-family: 'elektra_medium_proregular';
+}
+.electra_bold {
+  font-family: 'elektra_light_probold';
+}
+.electra_light {
+  font-family: 'elektra_light_proregular';
+}
+.electra_italic {
+  font-family: 'elektra_medium_proitalic';
+}
+/* MIXINS */
+.inlineblock {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1!ie;
+}
+.clearfix {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1!ie;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/* --------- breadcrumbs --------- */
+.content__options {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1!ie;
+  margin-bottom: 20px;
+}
+.content__options:before,
+.content__options:after {
+  content: "";
+  display: table;
+}
+.content__options:after {
+  clear: both;
+}
+.breadcrumbs {
+  float: left;
+}
+.breadcrumbs__item {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1!ie;
+}
+.breadcrumbs__item:first-child:before {
+  display: none;
+}
+.breadcrumbs__item:before {
+  content: ">";
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1!ie;
+}
+.content__options-items {
+  float: right;
+  text-align: right;
+}
+.breadcrumbs__link {
+  font-size: 14px;
+  color: #00b9fe;
+  text-decoration: underline;
+}
+.breadcrumbs__link:hover {
+  text-decoration: none;
+  color: #5c7b98;
+}
+.content__paginator-item {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1!ie;
+}
+.content__paginator-item.active .content__paginator-link {
+  color: #5c7b98;
+  text-decoration: none;
+}
+.content__paginator-link,
+.content__paginator-all {
+  font-size: 15px;
+  line-height: 17px;
+  color: #00b9fe;
+  font-family: 'elektra_light_proregular';
+  text-decoration: underline;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1!ie;
+}
+.content__paginator-link:hover,
+.content__paginator-all:hover {
+  color: #5c7b98;
+  text-decoration: none;
+}
+.content__paginator-list {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1!ie;
+}
+.content__options-select {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1!ie;
+}
+.content__options-paginator {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1!ie;
+}

@@ -1,7 +1,7 @@
-@font-face{font-family:elektra_light_probold;src:url(/fonts/font-webfont.eot);src:url(/fonts/font-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/font-webfont.woff2) format('woff2'),url(/fonts/font-webfont.woff) format('woff'),url(/fonts/font-webfont.ttf) format('truetype'),url(/fonts/font-webfont.svg#elektra_light_probold) format('svg');font-weight:400;font-style:normal}
-@font-face{font-family:elektra_medium_proitalic;src:url(/fonts/elektra_medium_pro_italic-webfont.eot);src:url(/fonts/elektra_medium_pro_italic-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/elektra_medium_pro_italic-webfont.woff2) format('woff2'),url(/fonts/elektra_medium_pro_italic-webfont.woff) format('woff'),url(/fonts/elektra_medium_pro_italic-webfont.ttf) format('truetype'),url(/fonts/elektra_medium_pro_italic-webfont.svg#elektra_medium_proitalic) format('svg');font-weight:400;font-style:normal}
-@font-face{font-family:elektra_light_proregular;src:url(/fonts/elektra_light_pro-webfont.eot);src:url(/fonts/elektra_light_pro-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/elektra_light_pro-webfont.woff2) format('woff2'),url(/fonts/elektra_light_pro-webfont.woff) format('woff'),url(/fonts/elektra_light_pro-webfont.ttf) format('truetype'),url(/fonts/elektra_light_pro-webfont.svg#elektra_light_proregular) format('svg');font-weight:400;font-style:normal}
-@font-face{font-family:elektra_medium_proregular;src:url(/fonts/elektra_medium_pro-webfont.eot);src:url(/fonts/elektra_medium_pro-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/elektra_medium_pro-webfont.woff2) format('woff2'),url(/fonts/elektra_medium_pro-webfont.woff) format('woff'),url(/fonts/elektra_medium_pro-webfont.ttf) format('truetype'),url(/fonts/elektra_medium_pro-webfont.svg#elektra_medium_proregular) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_light_probold;src:url(../fonts/font-webfont.eot);src:url(../fonts/font-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/font-webfont.woff2) format('woff2'),url(../fonts/font-webfont.woff) format('woff'),url(../fonts/font-webfont.ttf) format('truetype'),url(../fonts/font-webfont.svg#elektra_light_probold) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_medium_proitalic;src:url(../fonts/elektra_medium_pro_italic-webfont.eot);src:url(../fonts/elektra_medium_pro_italic-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_medium_pro_italic-webfont.woff2) format('woff2'),url(../fonts/elektra_medium_pro_italic-webfont.woff) format('woff'),url(../fonts/elektra_medium_pro_italic-webfont.ttf) format('truetype'),url(../fonts/elektra_medium_pro_italic-webfont.svg#elektra_medium_proitalic) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_light_proregular;src:url(../fonts/elektra_light_pro-webfont.eot);src:url(../fonts/elektra_light_pro-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_light_pro-webfont.woff2) format('woff2'),url(../fonts/elektra_light_pro-webfont.woff) format('woff'),url(../fonts/elektra_light_pro-webfont.ttf) format('truetype'),url(../fonts/elektra_light_pro-webfont.svg#elektra_light_proregular) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_medium_proregular;src:url(../fonts/elektra_medium_pro-webfont.eot);src:url(../fonts/elektra_medium_pro-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_medium_pro-webfont.woff2) format('woff2'),url(../fonts/elektra_medium_pro-webfont.woff) format('woff'),url(../fonts/elektra_medium_pro-webfont.ttf) format('truetype'),url(../fonts/elektra_medium_pro-webfont.svg#elektra_medium_proregular) format('svg');font-weight:400;font-style:normal}
 /*! normalize.css v1.1.3 | MIT License | git.io/normalize */
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}
 audio,canvas,video{display:inline-block}
@@ -56,40 +56,125 @@ html{width:100%;height:100%;font-size:100.01%}
 body{font:14px/1.41 Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased;width:100%;height:100%}
 .container{width:1000px;margin:0 auto;position:relative}
 .wrapper{position:relative;min-height:100%;height:auto!important;height:100%;overflow:hidden;min-width:1020px}
-.wrapper:after{content:"";position:relative;height:240px}
+.wrapper:after{content:"";display:block;position:relative;height:240px}
 table{border-collapse:collapse;border-spacing:0}
 ul{padding:0;margin:0}
 ul li{padding:0;left:0;list-style:none}
 p{padding:0;margin:0}
 footer{position:relative;margin-top:-240px;height:240px;min-width:1020px}
-.some-div__child{width:200px;height:300px;background:red;border:1px solid #000}
-@font-face{font-family:elektra_light_probold;src:url(/fonts/font-webfont.eot);src:url(/fonts/font-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/font-webfont.woff2) format('woff2'),url(/fonts/font-webfont.woff) format('woff'),url(/fonts/font-webfont.ttf) format('truetype'),url(/fonts/font-webfont.svg#elektra_light_probold) format('svg');font-weight:400;font-style:normal}
-@font-face{font-family:elektra_medium_proitalic;src:url(/fonts/elektra_medium_pro_italic-webfont.eot);src:url(/fonts/elektra_medium_pro_italic-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/elektra_medium_pro_italic-webfont.woff2) format('woff2'),url(/fonts/elektra_medium_pro_italic-webfont.woff) format('woff'),url(/fonts/elektra_medium_pro_italic-webfont.ttf) format('truetype'),url(/fonts/elektra_medium_pro_italic-webfont.svg#elektra_medium_proitalic) format('svg');font-weight:400;font-style:normal}
-@font-face{font-family:elektra_light_proregular;src:url(/fonts/elektra_light_pro-webfont.eot);src:url(/fonts/elektra_light_pro-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/elektra_light_pro-webfont.woff2) format('woff2'),url(/fonts/elektra_light_pro-webfont.woff) format('woff'),url(/fonts/elektra_light_pro-webfont.ttf) format('truetype'),url(/fonts/elektra_light_pro-webfont.svg#elektra_light_proregular) format('svg');font-weight:400;font-style:normal}
-@font-face{font-family:elektra_medium_proregular;src:url(/fonts/elektra_medium_pro-webfont.eot);src:url(/fonts/elektra_medium_pro-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/elektra_medium_pro-webfont.woff2) format('woff2'),url(/fonts/elektra_medium_pro-webfont.woff) format('woff'),url(/fonts/elektra_medium_pro-webfont.ttf) format('truetype'),url(/fonts/elektra_medium_pro-webfont.svg#elektra_medium_proregular) format('svg');font-weight:400;font-style:normal}
-.navigation{margin-top:-21px;margin-bottom:18px}
-.navigation .container{text-align:center}
-.navigation__list{vertical-align:top;display:inline!ie;zoom:1!ie}
-.navigation__list:after,.navigation__list:before{content:"";display:table}
-.navigation__list:after{clear:both}
-.navigation__item{float:left;margin-left:-11px}
-.navigation__item:first-child{margin-left:0}
-.navigation__link{background:url(../img/bg/nav-item.png) no-repeat;padding-left:14px;height:42px;display:block}
-.navigation__link:hover{background-position:0 -55px}
-.navigation__link:hover .navigation__text{background-position:right -55px}
-.navigation__text{background:url(../img/bg/nav-item.png) right 0 no-repeat;padding-right:14px;padding-left:8px;height:42px;text-align:center;line-height:42px;display:block;font-size:15px;font-family:elektra_medium_proregular;color:#5c7b98}
-@font-face{font-family:elektra_light_probold;src:url(/fonts/font-webfont.eot);src:url(/fonts/font-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/font-webfont.woff2) format('woff2'),url(/fonts/font-webfont.woff) format('woff'),url(/fonts/font-webfont.ttf) format('truetype'),url(/fonts/font-webfont.svg#elektra_light_probold) format('svg');font-weight:400;font-style:normal}
-@font-face{font-family:elektra_medium_proitalic;src:url(/fonts/elektra_medium_pro_italic-webfont.eot);src:url(/fonts/elektra_medium_pro_italic-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/elektra_medium_pro_italic-webfont.woff2) format('woff2'),url(/fonts/elektra_medium_pro_italic-webfont.woff) format('woff'),url(/fonts/elektra_medium_pro_italic-webfont.ttf) format('truetype'),url(/fonts/elektra_medium_pro_italic-webfont.svg#elektra_medium_proitalic) format('svg');font-weight:400;font-style:normal}
-@font-face{font-family:elektra_light_proregular;src:url(/fonts/elektra_light_pro-webfont.eot);src:url(/fonts/elektra_light_pro-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/elektra_light_pro-webfont.woff2) format('woff2'),url(/fonts/elektra_light_pro-webfont.woff) format('woff'),url(/fonts/elektra_light_pro-webfont.ttf) format('truetype'),url(/fonts/elektra_light_pro-webfont.svg#elektra_light_proregular) format('svg');font-weight:400;font-style:normal}
-@font-face{font-family:elektra_medium_proregular;src:url(/fonts/elektra_medium_pro-webfont.eot);src:url(/fonts/elektra_medium_pro-webfont.eot?#iefix) format('embedded-opentype'),url(/fonts/elektra_medium_pro-webfont.woff2) format('woff2'),url(/fonts/elektra_medium_pro-webfont.woff) format('woff'),url(/fonts/elektra_medium_pro-webfont.ttf) format('truetype'),url(/fonts/elektra_medium_pro-webfont.svg#elektra_medium_proregular) format('svg');font-weight:400;font-style:normal}
-.electra{font-family:elektra_medium_proregular}
-.electra_bold{font-family:elektra_light_probold}
-.electra_light{font-family:elektra_light_proregular}
-.electra_italic{font-family:elektra_medium_proitalic}
-.inlineblock{vertical-align:top;zoom:1!ie;display:inline!ie}
-.clearfix{zoom:1!ie}
-.clearfix:after,.clearfix:before{content:"";display:table}
-.clearfix:after{clear:both}
+.jspContainer{overflow:hidden;position:relative}
+.jspPane{position:absolute}
+.jspVerticalBar{position:absolute;top:0;right:0;width:16px;height:100%;background:red}
+.jspHorizontalBar{position:absolute;bottom:0;left:0;width:100%;height:16px;background:red}
+.jspCap{display:none}
+.jspHorizontalBar .jspCap{float:left}
+.jspTrack{background:#dde;position:relative}
+.jspDrag{background:#bbd;position:relative;top:0;left:0;cursor:pointer}
+.jspHorizontalBar .jspDrag,.jspHorizontalBar .jspTrack{float:left;height:100%}
+.jspArrow{background:#50506d;text-indent:-20000px;display:block;cursor:pointer;padding:0;margin:0}
+.jspArrow.jspDisabled{cursor:default;background:#80808d}
+.jspVerticalBar .jspArrow{height:16px}
+.jspHorizontalBar .jspArrow{width:16px;float:left;height:100%}
+.jspVerticalBar .jspArrow:focus{outline:0}
+.jspCorner{background:#eeeef4;float:left;height:100%}
+* html .jspCorner{margin:0 -3px 0 0}
+.content__inner{zoom:1!ie}
+.content__inner:after,.content__inner:before{content:"";display:table}
+.content__inner:after{clear:both}
+.content__options-select{text-align:left;margin-left:3px}
+.content__options-select.opened .selectbox__display{border-bottom:0 none;-webkit-border-radius:3px 3px 0 0;-moz-border-radius:3px 3px 0 0;border-radius:3px 3px 0 0;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;padding-bottom:1px}
+.content__options-select.opened .selectbox__display:hover{background:#edecec}
+.content__options-select.opened .selectbox__dropdown{left:0;right:0;width:135px}
+.content__options-select .selectbox__dropdown{position:absolute;top:100%;width:133px;right:auto;left:-9999px;background:#fff;border:1px solid #bdbdbd;border-top:0 none;-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background-clip:padding-box;z-index:1000}
+.content__options-select .selectbox__inner{position:relative}
+.content__options-select .selectbox__display{width:133px;border:1px solid #bdbdbd;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;-moz-background-clip:padding;-webkit-background-clip:padding-box;background:#fff;zoom:1!ie;cursor:pointer;overflow:hidden;position:relative}
+.content__options-select .selectbox__display:after,.content__options-select .selectbox__display:before{content:"";display:table}
+.content__options-select .selectbox__display:after{clear:both}
+.content__options-select .selectbox__display-title{float:left;width:102px}
+.content__options-select .selectbox__title-text{line-height:27px;padding-left:11px;height:27px;white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.content__options-select .selectbox__display-btn{width:26px;float:left;height:27px;background:0 0;top:0;right:0;position:absolute}
+.content__options-select .selectbox__btn-icon{width:26px;height:27px;background:url(img/decor/select-tr.png) center center no-repeat}
+.content__options-select .selectbox__dropdown-item.selected .selectbox__item-link{background:#edecec}
+.content__options-select .selectbox__item-link{font-size:12px;line-height:14px;color:#686868;padding-left:13px;padding-top:5px;padding-bottom:5px;cursor:pointer;display:block}
+.content__options-select .selectbox__item-link:hover{background:#edecec}
+.content__options-select .selectbox__title-text{font-size:14px;color:#5c7b98}
+.content__options-select .selectbox__display-btn{background-color:#00b9fe}
+.content__options-select .selected .selectbox__item-link{color:#bed1e3;background-color:transparent!important}
+.content__options-select .selectbox__dropdown{max-height:120px;overflow:auto}
+@font-face{font-family:elektra_light_probold;src:url(../fonts/font-webfont.eot);src:url(../fonts/font-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/font-webfont.woff2) format('woff2'),url(../fonts/font-webfont.woff) format('woff'),url(../fonts/font-webfont.ttf) format('truetype'),url(../fonts/font-webfont.svg#elektra_light_probold) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_medium_proitalic;src:url(../fonts/elektra_medium_pro_italic-webfont.eot);src:url(../fonts/elektra_medium_pro_italic-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_medium_pro_italic-webfont.woff2) format('woff2'),url(../fonts/elektra_medium_pro_italic-webfont.woff) format('woff'),url(../fonts/elektra_medium_pro_italic-webfont.ttf) format('truetype'),url(../fonts/elektra_medium_pro_italic-webfont.svg#elektra_medium_proitalic) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_light_proregular;src:url(../fonts/elektra_light_pro-webfont.eot);src:url(../fonts/elektra_light_pro-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_light_pro-webfont.woff2) format('woff2'),url(../fonts/elektra_light_pro-webfont.woff) format('woff'),url(../fonts/elektra_light_pro-webfont.ttf) format('truetype'),url(../fonts/elektra_light_pro-webfont.svg#elektra_light_proregular) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_medium_proregular;src:url(../fonts/elektra_medium_pro-webfont.eot);src:url(../fonts/elektra_medium_pro-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_medium_pro-webfont.woff2) format('woff2'),url(../fonts/elektra_medium_pro-webfont.woff) format('woff'),url(../fonts/elektra_medium_pro-webfont.ttf) format('truetype'),url(../fonts/elektra_medium_pro-webfont.svg#elektra_medium_proregular) format('svg');font-weight:400;font-style:normal}
+.content__options{zoom:1!ie;margin-bottom:20px}
+.content__options:after,.content__options:before{content:"";display:table}
+.content__options:after{clear:both}
+.breadcrumbs{float:left}
+.breadcrumbs__item{display:inline-block;vertical-align:top;zoom:1!ie}
+.breadcrumbs__item:first-child:before{display:none}
+.breadcrumbs__item:before{content:">";display:inline-block;vertical-align:top;zoom:1!ie}
+.content__options-items{float:right;text-align:right}
+.breadcrumbs__link{font-size:14px;color:#00b9fe;text-decoration:underline}
+.breadcrumbs__link:hover{text-decoration:none;color:#5c7b98}
+.content__paginator-item{display:inline-block;vertical-align:top;zoom:1!ie}
+.content__paginator-item.active .content__paginator-link{color:#5c7b98;text-decoration:none}
+.content__paginator-all,.content__paginator-link{font-size:15px;line-height:17px;color:#00b9fe;font-family:elektra_light_proregular;text-decoration:underline;display:inline-block;vertical-align:top;zoom:1!ie}
+.content__paginator-all:hover,.content__paginator-link:hover{color:#5c7b98;text-decoration:none}
+.content__options-paginator,.content__options-select,.content__paginator-list{display:inline-block;vertical-align:top;zoom:1!ie}
+@font-face{font-family:elektra_light_probold;src:url(../fonts/font-webfont.eot);src:url(../fonts/font-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/font-webfont.woff2) format('woff2'),url(../fonts/font-webfont.woff) format('woff'),url(../fonts/font-webfont.ttf) format('truetype'),url(../fonts/font-webfont.svg#elektra_light_probold) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_medium_proitalic;src:url(../fonts/elektra_medium_pro_italic-webfont.eot);src:url(../fonts/elektra_medium_pro_italic-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_medium_pro_italic-webfont.woff2) format('woff2'),url(../fonts/elektra_medium_pro_italic-webfont.woff) format('woff'),url(../fonts/elektra_medium_pro_italic-webfont.ttf) format('truetype'),url(../fonts/elektra_medium_pro_italic-webfont.svg#elektra_medium_proitalic) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_light_proregular;src:url(../fonts/elektra_light_pro-webfont.eot);src:url(../fonts/elektra_light_pro-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_light_pro-webfont.woff2) format('woff2'),url(../fonts/elektra_light_pro-webfont.woff) format('woff'),url(../fonts/elektra_light_pro-webfont.ttf) format('truetype'),url(../fonts/elektra_light_pro-webfont.svg#elektra_light_proregular) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_medium_proregular;src:url(../fonts/elektra_medium_pro-webfont.eot);src:url(../fonts/elektra_medium_pro-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_medium_pro-webfont.woff2) format('woff2'),url(../fonts/elektra_medium_pro-webfont.woff) format('woff'),url(../fonts/elektra_medium_pro-webfont.ttf) format('truetype'),url(../fonts/elektra_medium_pro-webfont.svg#elektra_medium_proregular) format('svg');font-weight:400;font-style:normal}
+.content__page{width:740px;float:right}
+.content__item-inner{display:block;zoom:1!ie}
+.content__item-inner:after,.content__item-inner:before{content:"";display:table}
+.content__item-inner:after{clear:both}
+.conten__pic{float:left;width:140px}
+.conten__pic img{max-width:140px;max-height:105px}
+.content__text{width:460px;float:right}
+.content__text-title{font-size:15px;color:#00b9fe;line-height:17px;margin-bottom:20px}
+.content__text-about{font-family:elektra_light_proregular;font-size:14px;line-height:16px;color:#5c7b98}
+.content__item{padding:25px 90px 25px 30px;border:1px solid #dbe1eb;-webkit-box-shadow:0 0 8px 0 rgba(0,0,0,.15);-moz-box-shadow:0 0 8px 0 rgba(0,0,0,.15);box-shadow:0 0 8px 0 rgba(0,0,0,.15);margin-top:25px}
+.content__item:first-child{margin-top:0}
+.content__list{margin-bottom:30px}
+.content__about-title{color:#5c7b98;font-family:elektra_light_probold;font-size:25px;line-height:27px;margin-bottom:10px}
+.content__about-text p{color:#5c7b98;font-size:15px;line-height:17px;margin-bottom:25px}
+.content__list_horizontal{zoom:1!ie;margin-left:-20px}
+.content__list_horizontal:after,.content__list_horizontal:before{content:"";display:table}
+.content__list_horizontal:after{clear:both}
+.content__list_horizontal .content__item{float:left;padding:15px;width:200px;margin-top:0;margin-bottom:20px;margin-left:20px}
+.content__list_horizontal .content__item-inner{text-align:center}
+.content__list_horizontal .content__item-inner .conten__pic{display:inline-block;vertical-align:top;zoom:1!ie;float:none;margin-bottom:20px}
+.content__list_horizontal .content__item-inner .content__text{width:auto;text-align:left}
+.footer{background:url(../img/bg/footer-bg.jpg)}
+.footer .container{min-height:168px;padding-top:60px}
+.footer__logo-text{position:absolute;top:0;left:-9999px}
+.footer__menu{margin-left:206px;width:500px}
+.footer__menu-item{display:inline-block;vertical-align:top;zoom:1!ie;margin-left:61px}
+.footer__menu-title{color:#fff;font-size:15px;line-height:17px;margin-bottom:10px}
+.footer__menu-link{color:#fff;font-size:15px;line-height:17px;margin-bottom:5px;text-decoration:underline}
+.footer__menu-link:hover{text-decoration:none}
+.footer__logo{top:100px;left:0;position:absolute}
+.footer__socials{right:0;top:73px;position:absolute}
+.footer__socials-stores{zoom:1!ie;margin-bottom:26px}
+.footer__socials-stores:after,.footer__socials-stores:before{content:"";display:table}
+.footer__socials-stores:after{clear:both}
+.footer__menu-options{margin-bottom:6px}
+.footer__socials-store{margin-left:5px;float:left}
+.footer__socials-store a,.footer__socials-store a img{display:block}
+.footer__socials-networks{zoom:1!ie}
+.footer__socials-networks:after,.footer__socials-networks:before{content:"";display:table}
+.footer__socials-networks:after{clear:both}
+.footer__socials-network{float:left;margin-left:7px}
+.footer__socials-network:first-child{margin-left:0}
+.footer__socials-link{width:44px;height:44px;display:block;filter:alpha(opacity=100);-ms-filter:alpha(Opacity=100);opacity:1;-webkit-transition:.2s;-moz-transition:.2s;-ms-transition:.2s;-o-transition:.2s;transition:.2s;background:url(../img/icons/footer-socials.png) no-repeat}
+.footer__socials-link:hover{filter:alpha(opacity=80);-ms-filter:alpha(Opacity=80);opacity:.8}
+.footer__socials-network_vk .footer__socials-link{background-position:0 0}
+.footer__socials-network_fb .footer__socials-link{background-position:-53px 0}
+.footer__socials-network_tw .footer__socials-link{background-position:-103px 0}
+@font-face{font-family:elektra_light_probold;src:url(../fonts/font-webfont.eot);src:url(../fonts/font-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/font-webfont.woff2) format('woff2'),url(../fonts/font-webfont.woff) format('woff'),url(../fonts/font-webfont.ttf) format('truetype'),url(../fonts/font-webfont.svg#elektra_light_probold) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_medium_proitalic;src:url(../fonts/elektra_medium_pro_italic-webfont.eot);src:url(../fonts/elektra_medium_pro_italic-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_medium_pro_italic-webfont.woff2) format('woff2'),url(../fonts/elektra_medium_pro_italic-webfont.woff) format('woff'),url(../fonts/elektra_medium_pro_italic-webfont.ttf) format('truetype'),url(../fonts/elektra_medium_pro_italic-webfont.svg#elektra_medium_proitalic) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_light_proregular;src:url(../fonts/elektra_light_pro-webfont.eot);src:url(../fonts/elektra_light_pro-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_light_pro-webfont.woff2) format('woff2'),url(../fonts/elektra_light_pro-webfont.woff) format('woff'),url(../fonts/elektra_light_pro-webfont.ttf) format('truetype'),url(../fonts/elektra_light_pro-webfont.svg#elektra_light_proregular) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_medium_proregular;src:url(../fonts/elektra_medium_pro-webfont.eot);src:url(../fonts/elektra_medium_pro-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_medium_pro-webfont.woff2) format('woff2'),url(../fonts/elektra_medium_pro-webfont.woff) format('woff'),url(../fonts/elektra_medium_pro-webfont.ttf) format('truetype'),url(../fonts/elektra_medium_pro-webfont.svg#elektra_medium_proregular) format('svg');font-weight:400;font-style:normal}
 .header{background:#dae5f0;background:-moz-linear-gradient(left,#dae5f0 0,#f0f4f9 30%,#f0f4f9 70%,#dae5f0 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,#dae5f0),color-stop(30%,#f0f4f9),color-stop(70%,#f0f4f9),color-stop(100%,#dae5f0));background:-webkit-linear-gradient(left,#dae5f0 0,#f0f4f9 30%,#f0f4f9 70%,#dae5f0 100%);background:-o-linear-gradient(left,#dae5f0 0,#f0f4f9 30%,#f0f4f9 70%,#dae5f0 100%);background:-ms-linear-gradient(left,#dae5f0 0,#f0f4f9 30%,#f0f4f9 70%,#dae5f0 100%);background:linear-gradient(to right,#dae5f0 0,#f0f4f9 30%,#f0f4f9 70%,#dae5f0 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dae5f0', endColorstr='#dae5f0', GradientType=1)}
 .header .container{min-height:120px}
 .header__phone-value{text-decoration:none}
@@ -99,3 +184,37 @@ a.header__logo{position:absolute;top:25px;left:0}
 .header__phone-code{font-family:elektra_light_probold;color:#00b9fe;font-size:15px;margin-right:4px}
 .header__phone-number{font-family:elektra_medium_proregular;font-size:25px;line-height:27px;color:#5c7b98}
 .header__mail{position:absolute;top:55px;right:0;font-size:17px;line-height:19px;color:#613993}
+@font-face{font-family:elektra_light_probold;src:url(../fonts/font-webfont.eot);src:url(../fonts/font-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/font-webfont.woff2) format('woff2'),url(../fonts/font-webfont.woff) format('woff'),url(../fonts/font-webfont.ttf) format('truetype'),url(../fonts/font-webfont.svg#elektra_light_probold) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_medium_proitalic;src:url(../fonts/elektra_medium_pro_italic-webfont.eot);src:url(../fonts/elektra_medium_pro_italic-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_medium_pro_italic-webfont.woff2) format('woff2'),url(../fonts/elektra_medium_pro_italic-webfont.woff) format('woff'),url(../fonts/elektra_medium_pro_italic-webfont.ttf) format('truetype'),url(../fonts/elektra_medium_pro_italic-webfont.svg#elektra_medium_proitalic) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_light_proregular;src:url(../fonts/elektra_light_pro-webfont.eot);src:url(../fonts/elektra_light_pro-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_light_pro-webfont.woff2) format('woff2'),url(../fonts/elektra_light_pro-webfont.woff) format('woff'),url(../fonts/elektra_light_pro-webfont.ttf) format('truetype'),url(../fonts/elektra_light_pro-webfont.svg#elektra_light_proregular) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_medium_proregular;src:url(../fonts/elektra_medium_pro-webfont.eot);src:url(../fonts/elektra_medium_pro-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_medium_pro-webfont.woff2) format('woff2'),url(../fonts/elektra_medium_pro-webfont.woff) format('woff'),url(../fonts/elektra_medium_pro-webfont.ttf) format('truetype'),url(../fonts/elektra_medium_pro-webfont.svg#elektra_medium_proregular) format('svg');font-weight:400;font-style:normal}
+.navigation{margin-top:-21px;margin-bottom:18px}
+.navigation .container{text-align:center}
+.navigation__list{display:inline-block;vertical-align:top;zoom:1!ie}
+.navigation__list:after,.navigation__list:before{content:"";display:table}
+.navigation__list:after{clear:both}
+.navigation__item{float:left;margin-left:-11px}
+.navigation__item:first-child{margin-left:0}
+.navigation__link{background:url(../img/bg/nav-item.png) no-repeat;padding-left:14px;height:42px;display:block}
+.navigation__link:hover{background-position:0 -55px}
+.navigation__link:hover .navigation__text{background-position:right -55px}
+.navigation__text{background:url(../img/bg/nav-item.png) right 0 no-repeat;padding-right:14px;padding-left:8px;height:42px;text-align:center;line-height:42px;display:block;font-size:15px;font-family:elektra_medium_proregular;color:#5c7b98}
+@font-face{font-family:elektra_light_probold;src:url(../fonts/font-webfont.eot);src:url(../fonts/font-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/font-webfont.woff2) format('woff2'),url(../fonts/font-webfont.woff) format('woff'),url(../fonts/font-webfont.ttf) format('truetype'),url(../fonts/font-webfont.svg#elektra_light_probold) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_medium_proitalic;src:url(../fonts/elektra_medium_pro_italic-webfont.eot);src:url(../fonts/elektra_medium_pro_italic-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_medium_pro_italic-webfont.woff2) format('woff2'),url(../fonts/elektra_medium_pro_italic-webfont.woff) format('woff'),url(../fonts/elektra_medium_pro_italic-webfont.ttf) format('truetype'),url(../fonts/elektra_medium_pro_italic-webfont.svg#elektra_medium_proitalic) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_light_proregular;src:url(../fonts/elektra_light_pro-webfont.eot);src:url(../fonts/elektra_light_pro-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_light_pro-webfont.woff2) format('woff2'),url(../fonts/elektra_light_pro-webfont.woff) format('woff'),url(../fonts/elektra_light_pro-webfont.ttf) format('truetype'),url(../fonts/elektra_light_pro-webfont.svg#elektra_light_proregular) format('svg');font-weight:400;font-style:normal}
+@font-face{font-family:elektra_medium_proregular;src:url(../fonts/elektra_medium_pro-webfont.eot);src:url(../fonts/elektra_medium_pro-webfont.eot?#iefix) format('embedded-opentype'),url(../fonts/elektra_medium_pro-webfont.woff2) format('woff2'),url(../fonts/elektra_medium_pro-webfont.woff) format('woff'),url(../fonts/elektra_medium_pro-webfont.ttf) format('truetype'),url(../fonts/elektra_medium_pro-webfont.svg#elektra_medium_proregular) format('svg');font-weight:400;font-style:normal}
+.electra{font-family:elektra_medium_proregular}
+.electra_bold{font-family:elektra_light_probold}
+.electra_light{font-family:elektra_light_proregular}
+.electra_italic{font-family:elektra_medium_proitalic}
+.inlineblock{display:inline-block;vertical-align:top;zoom:1!ie}
+.clearfix{zoom:1!ie}
+.clearfix:after,.clearfix:before{content:"";display:table}
+.clearfix:after{clear:both}
+.sidebar{width:230px;float:left}
+.sidebar__item-trigger{display:block;padding:8px 0 8px 22px;font-size:15px;line-height:17px;color:#5c7b98;background:url(/img/decor/sidebar-border.png) 0 top repeat-x #f7f7f7}
+.sidebar__inner-link{background:url(/img/decor/tr-r.png) 3px 9px no-repeat;display:inline-block;vertical-align:top;zoom:1!ie;font-size:15px;line-height:17px;color:#5c7b98;padding:6px 14px}
+.sidebar__inner-item{padding-left:20px;background:url(/img/decor/sidebar-border.png) 0 top repeat-x #f7f7f7}
+.sidebar__item{background:url(/img/decor/sidebar-border.png) 0 top repeat-x #f7f7f7}
+.sidebar__item:first-child .sidebar__item-trigger{background-image:none}
+.sidebar__inner{display:none}

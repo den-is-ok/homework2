@@ -1,0 +1,108 @@
+@import "../_misc/_fonts";
+@import "../_misc/mixins";
+
+/* --------- content --------- */
+
+.content__page {
+	width: 740px;
+	float: right;
+}
+
+.content__item-inner {
+	display: block;
+	.clearfix;
+}
+
+.conten__pic {
+	float: left;
+	width: 140px;
+
+	img {
+		max-width: 140px;
+		max-height: 105px;
+	}
+}
+
+.content__text {
+
+	width: 460px;
+	float: right;
+}
+
+.content__text-title {
+	font-size: 15px;
+	color: #00b9fe;
+	line-height: 17px;
+	margin-bottom: 20px;
+}
+
+.content__text-about {
+	.electra_light;
+	font-size: 14px;
+	line-height: 16px;
+	color: #5c7b98;
+}
+
+.content__item {
+	padding: 25px 90px 25px 30px;
+	border: 1px solid #dbe1eb;
+	.box-shadow(0 0 8px 0 rgba(00,00,00,.15));
+	margin-top: 25px;
+
+	&:first-child {
+		margin-top: 0;
+	}
+}
+
+.content__list {
+	margin-bottom: 30px;
+}
+
+.content__about-title {
+	color: #5c7b98;
+	.electra_bold;
+	font-size: 25px;
+	line-height: 27px;
+	margin-bottom: 10px;
+}
+
+.content__about-text {
+	p {
+		color: #5c7b98;
+		font-size: 15px;
+		line-height: 17px;
+		margin-bottom: 25px;
+	}
+}
+
+.content__list_horizontal {
+	.clearfix;
+	margin-left: -20px;
+
+	.content__item {
+		float: left;
+		padding: 15px;
+		width: 200px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		margin-left: 20px;
+	}
+
+	.content__item-inner {
+		text-align: center;
+
+		.conten__pic {
+			.inlineblock;
+			float: none;
+			margin-bottom: 20px;
+		}
+
+		.content__text {
+			width: auto;
+			text-align: left;
+		}
+	}
+}
+
+
+

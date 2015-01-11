@@ -1,7 +1,7 @@
 extends ../_layouts/layout
 
 block title
-    title Main Page
+     | Main Page
 
 block content
     section.content
@@ -9,43 +9,66 @@ block content
             section.content__options
                 .breadcrumbs
                     ul.breadcrumbs__list
-                        each title in ["Главная","Каталог"]
+                        each title in ['Главная', 'Каталог']
                             li.breadcrumbs__item
                                 a.breadcrumbs__link= title
                 .content__options-items
-                    .select.content__options-select
+                    select.content__options-select
+                        option(value='cells') Сеткой
+                        option(value='lines') Линиями
+                        option(value='cells') Сеткой
+                        option(value='lines') Линиями
+                        option(value='cells') Сеткой
+                        option(value='lines') Линиями
+                        option(value='lines') Линиями
+                        option(value='lines') Линиями
+                        option(value='lines') Линиями
+                        option(value='lines') Линиями
+                        option(value='lines') Линиями
+                        option(value='lines') Линиями
+                        option(value='lines') Линиями
+                        option(value='lines') Линиями
 
                     .content__options-paginator
                         ul.content__paginator-list
-                            each page in ["1","2","3","4","5"]
-                                li.content__paginator-item
-                                    a.content__paginator-link= page
+                            li.content__paginator-item.active
+                                a.content__paginator-link 1
+                            li.content__paginator-item
+                                a.content__paginator-link 2
+                            li.content__paginator-item
+                                a.content__paginator-link 3
+                            li.content__paginator-item
+                                a.content__paginator-link 4
+                            li.content__paginator-item
+                                a.content__paginator-link 5
+                        a.content__paginator-all Все
             section.content__inner
                 .sidebar
                     ul.sidebar__list
-                        each item in ["iPhone","iPad","iMac","MacBook","iPod","Другое"]
+                        each item in ['iPhone', 'iPad', 'iMac', 'Macbook', 'iPod', 'Другое']
                             li.sidebar__item
                                 a.sidebar__item-trigger= item
                                 ul.sidebar__inner
-                                    each inner in ["iPhone 4s", "iPhone 5"]
+                                    each inner in ['iPhone 4s', 'iPhone 5', 'iPhone 5s с эксклюзивным дизайном', 'iPhone 6', 'iPhone 6 plus']
                                         li.sidebar__inner-item
                                             a.sidebar__inner-link= inner
                 .content__page
-                    ul.content__list
+                    ul.content__list.content__list_horizontal
                         - for (var i = 0; i < 7; i++)
-                            li.content__list-item
-                                .content__item-inner
-                                    .content__pic
-                                        img(src="//lorempixel.com/133/102")
+                            li.content__item
+                                a.content__item-inner
+                                    .conten__pic
+                                        img(src='//lorempixel.com/133/102')
                                     .content__text
                                         .content__text-title Apple Thunderbolt Display 27"
                                         .content__text-about
-                                            | Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг
+                                            | Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг;
+
                     .content__about
                         .content__about-title Пара слов о магазине
                         .content__about-text
                             p
                                 | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.
-                            p
-                                | Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.
 
+                            p
+                                | Lorem ipsum  dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.

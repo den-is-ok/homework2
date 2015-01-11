@@ -1,0 +1,163 @@
+/* --------- fonts --------- */
+@font-face {
+  font-family: 'elektra_light_probold';
+  src: url('../../fonts/font-webfont.eot');
+  src: url('../../fonts/font-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/font-webfont.woff2') format('woff2'), url('../../fonts/font-webfont.woff') format('woff'), url('../../fonts/font-webfont.ttf') format('truetype'), url('../../fonts/font-webfont.svg#elektra_light_probold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'elektra_medium_proitalic';
+  src: url('../../fonts/elektra_medium_pro_italic-webfont.eot');
+  src: url('../../fonts/elektra_medium_pro_italic-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/elektra_medium_pro_italic-webfont.woff2') format('woff2'), url('../../fonts/elektra_medium_pro_italic-webfont.woff') format('woff'), url('../../fonts/elektra_medium_pro_italic-webfont.ttf') format('truetype'), url('../../fonts/elektra_medium_pro_italic-webfont.svg#elektra_medium_proitalic') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'elektra_light_proregular';
+  src: url('../../fonts/elektra_light_pro-webfont.eot');
+  src: url('../../fonts/elektra_light_pro-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/elektra_light_pro-webfont.woff2') format('woff2'), url('../../fonts/elektra_light_pro-webfont.woff') format('woff'), url('../../fonts/elektra_light_pro-webfont.ttf') format('truetype'), url('../../fonts/elektra_light_pro-webfont.svg#elektra_light_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'elektra_medium_proregular';
+  src: url('../../fonts/elektra_medium_pro-webfont.eot');
+  src: url('../../fonts/elektra_medium_pro-webfont.eot?#iefix') format('embedded-opentype'), url('../../fonts/elektra_medium_pro-webfont.woff2') format('woff2'), url('../../fonts/elektra_medium_pro-webfont.woff') format('woff'), url('../../fonts/elektra_medium_pro-webfont.ttf') format('truetype'), url('../../fonts/elektra_medium_pro-webfont.svg#elektra_medium_proregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.electra {
+  font-family: 'elektra_medium_proregular';
+}
+.electra_bold {
+  font-family: 'elektra_light_probold';
+}
+.electra_light {
+  font-family: 'elektra_light_proregular';
+}
+.electra_italic {
+  font-family: 'elektra_medium_proitalic';
+}
+/* MIXINS */
+.inlineblock {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1!ie;
+}
+.clearfix {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1!ie;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+/* --------- content --------- */
+.content__page {
+  width: 740px;
+  float: right;
+}
+.content__item-inner {
+  display: block;
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1!ie;
+}
+.content__item-inner:before,
+.content__item-inner:after {
+  content: "";
+  display: table;
+}
+.content__item-inner:after {
+  clear: both;
+}
+.conten__pic {
+  float: left;
+  width: 140px;
+}
+.conten__pic img {
+  max-width: 140px;
+  max-height: 105px;
+}
+.content__text {
+  width: 460px;
+  float: right;
+}
+.content__text-title {
+  font-size: 15px;
+  color: #00b9fe;
+  line-height: 17px;
+  margin-bottom: 20px;
+}
+.content__text-about {
+  font-family: 'elektra_light_proregular';
+  font-size: 14px;
+  line-height: 16px;
+  color: #5c7b98;
+}
+.content__item {
+  padding: 25px 90px 25px 30px;
+  border: 1px solid #dbe1eb;
+  -webkit-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.15);
+  margin-top: 25px;
+}
+.content__item:first-child {
+  margin-top: 0;
+}
+.content__list {
+  margin-bottom: 30px;
+}
+.content__about-title {
+  color: #5c7b98;
+  font-family: 'elektra_light_probold';
+  font-size: 25px;
+  line-height: 27px;
+  margin-bottom: 10px;
+}
+.content__about-text p {
+  color: #5c7b98;
+  font-size: 15px;
+  line-height: 17px;
+  margin-bottom: 25px;
+}
+.content__list_horizontal {
+  *zoom: expression(this.runtimeStyle.zoom='1', this.appendChild(document.createElement('br')).style.cssText='clear:both;font:0/0 serif');
+  zoom: 1!ie;
+  margin-left: -20px;
+}
+.content__list_horizontal:before,
+.content__list_horizontal:after {
+  content: "";
+  display: table;
+}
+.content__list_horizontal:after {
+  clear: both;
+}
+.content__list_horizontal .content__item {
+  float: left;
+  padding: 15px;
+  width: 200px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.content__list_horizontal .content__item-inner {
+  text-align: center;
+}
+.content__list_horizontal .content__item-inner .conten__pic {
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1!ie;
+  float: none;
+  margin-bottom: 20px;
+}
+.content__list_horizontal .content__item-inner .content__text {
+  width: auto;
+  text-align: left;
+}

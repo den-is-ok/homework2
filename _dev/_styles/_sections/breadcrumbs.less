@@ -1,0 +1,82 @@
+@import "../_misc/_fonts";
+@import "../_misc/mixins";
+
+/* --------- breadcrumbs --------- */
+
+.content__options {
+	.clearfix;
+	margin-bottom: 20px;
+}
+
+.breadcrumbs {
+	float: left;
+}
+
+.breadcrumbs__item {
+	.inlineblock;
+
+	&:first-child {
+		&:before {
+			display: none;
+		}
+	}
+
+	&:before {
+		content: ">";
+		.inlineblock;
+
+	}
+}
+
+.content__options-items {
+	float: right;
+	text-align: right;
+}
+
+.breadcrumbs__link {
+	font-size: 14px;
+	color: #00b9fe;
+	text-decoration: underline;
+
+	&:hover {
+		text-decoration: none;
+		color: #5c7b98;
+	}
+}
+
+.content__paginator-item {
+	.inlineblock;
+
+	&.active {
+		.content__paginator-link {
+			color: #5c7b98;
+			text-decoration: none;
+		}
+	}
+}
+
+.content__paginator-link, .content__paginator-all  {
+	font-size: 15px;
+	line-height: 17px;
+	color: #00b9fe;
+	.electra_light;
+	text-decoration: underline;
+	.inlineblock;
+
+	&:hover {
+		color: #5c7b98;
+		text-decoration: none;
+	}
+}
+
+.content__paginator-list {
+	.inlineblock;
+}
+
+.content__options-select {
+	.inlineblock;
+}
+
+.content__options-paginator {
+	.inlineblock;
+}

@@ -1,8 +1,36 @@
+@import "../_misc/mixins";
+@import "../_plugins/simpleselect";
+
 /* --------- common --------- */
 
-.some-div__child {
-	width: 200px;
-	height: 300px;
-	background: red;
-	border: 1px solid #000;
+.content__inner {
+	.clearfix;
+}
+
+.content__options-select {
+	text-align: left;
+	.selectbox(133px, 27px, 26px, url('../img/decor/select-tr.png'));
+
+	.selectbox__title-text {
+		font-size: 14px;
+		color: #5c7b98;
+	}
+
+	.selectbox__display-btn {
+		background-color: #00b9fe;
+	}
+
+	.selected {
+
+		.selectbox__item-link {
+			color: #bed1e3;
+			background-color: transparent !important;
+		}
+	}
+
+	.selectbox__dropdown {
+		max-height: 120px;
+		overflow: auto;
+	}
+
 }

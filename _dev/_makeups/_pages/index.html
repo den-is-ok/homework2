@@ -1,7 +1,7 @@
 <!DOCTYPE html><!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
@@ -9,7 +9,7 @@
     <title>Main Page</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" type="text/css" href="../css/main.css" media="screen, projection, print">
-    <script src="../js/_vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="/js/_vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
   </head>
   <body>
     <!--[if lt IE 7]>
@@ -18,9 +18,8 @@
     <div class="wrapper">
       <div class="maincontent">
         <header class="header">
-          <div class="container">
-            <div class="header__logo"><img src="../img/logo/main_logo.png" class="header__logo-img"><span class="header__logo-text">Эппл Shop</span></div>
-            <div class="header__phone"><a href="tel:+79213221232" class="header__phone-value"><sup class="header__phone-code">+7(921)</sup><span class="header__phone-number">3221232</span></a><a href="mailto:support@mail.ru" class="header__mail">support@mail.ru</a></div>
+          <div class="container"><a class="header__logo"><img src="../img/logo/main_logo.png" class="header__logo-img"><span class="header__logo-text">Эппл Shop</span></a>
+            <div class="header__phone"><a href="tel:+79213221232" class="header__phone-value"><sup class="header__phone-code">+7(921)</sup><span class="header__phone-number">322-12-32</span></a></div><a href="mailto:manager@company.com" class="header__mail">manager@company.com</a>
           </div>
         </header>
         <nav class="navigation">
@@ -28,7 +27,7 @@
             <ul class="navigation__list">
               <li class="navigation__item"><a class="navigation__link"><span class="navigation__text">Мобильные телефоны</span></a></li>
               <li class="navigation__item"><a class="navigation__link"><span class="navigation__text">Планшеты</span></a></li>
-              <li class="navigation__item"><a class="navigation__link"><span class="navigation__text">MP3</span></a></li>
+              <li class="navigation__item"><a class="navigation__link"><span class="navigation__text">Mp3 плееры</span></a></li>
               <li class="navigation__item"><a class="navigation__link"><span class="navigation__text">Персональные компьютеры</span></a></li>
               <li class="navigation__item"><a class="navigation__link"><span class="navigation__text">Ноутбуки</span></a></li>
               <li class="navigation__item"><a class="navigation__link"><span class="navigation__text">Apple TV</span></a></li>
@@ -46,15 +45,30 @@
                 </ul>
               </div>
               <div class="content__options-items">
-                <div class="select content__options-select"></div>
+                <select class="content__options-select">
+                  <option value="cells">Сеткой</option>
+                  <option value="lines">Линиями</option>
+                  <option value="cells">Сеткой</option>
+                  <option value="lines">Линиями</option>
+                  <option value="cells">Сеткой</option>
+                  <option value="lines">Линиями</option>
+                  <option value="lines">Линиями</option>
+                  <option value="lines">Линиями</option>
+                  <option value="lines">Линиями</option>
+                  <option value="lines">Линиями</option>
+                  <option value="lines">Линиями</option>
+                  <option value="lines">Линиями</option>
+                  <option value="lines">Линиями</option>
+                  <option value="lines">Линиями</option>
+                </select>
                 <div class="content__options-paginator">
                   <ul class="content__paginator-list">
-                    <li class="content__paginator-item"><a class="content__paginator-link">1</a></li>
+                    <li class="content__paginator-item active"><a class="content__paginator-link">1</a></li>
                     <li class="content__paginator-item"><a class="content__paginator-link">2</a></li>
                     <li class="content__paginator-item"><a class="content__paginator-link">3</a></li>
                     <li class="content__paginator-item"><a class="content__paginator-link">4</a></li>
                     <li class="content__paginator-item"><a class="content__paginator-link">5</a></li>
-                  </ul>
+                  </ul><a class="content__paginator-all">Все</a>
                 </div>
               </div>
             </section>
@@ -65,111 +79,108 @@
                     <ul class="sidebar__inner">
                       <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 4s</a></li>
                       <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 5</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 5s с эксклюзивным дизайном</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 6</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 6 plus</a></li>
                     </ul>
                   </li>
                   <li class="sidebar__item"><a class="sidebar__item-trigger">iPad</a>
                     <ul class="sidebar__inner">
                       <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 4s</a></li>
                       <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 5</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 5s с эксклюзивным дизайном</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 6</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 6 plus</a></li>
                     </ul>
                   </li>
                   <li class="sidebar__item"><a class="sidebar__item-trigger">iMac</a>
                     <ul class="sidebar__inner">
                       <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 4s</a></li>
                       <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 5</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 5s с эксклюзивным дизайном</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 6</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 6 plus</a></li>
                     </ul>
                   </li>
-                  <li class="sidebar__item"><a class="sidebar__item-trigger">MacBook</a>
+                  <li class="sidebar__item"><a class="sidebar__item-trigger">Macbook</a>
                     <ul class="sidebar__inner">
                       <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 4s</a></li>
                       <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 5</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 5s с эксклюзивным дизайном</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 6</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 6 plus</a></li>
                     </ul>
                   </li>
                   <li class="sidebar__item"><a class="sidebar__item-trigger">iPod</a>
                     <ul class="sidebar__inner">
                       <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 4s</a></li>
                       <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 5</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 5s с эксклюзивным дизайном</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 6</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 6 plus</a></li>
                     </ul>
                   </li>
                   <li class="sidebar__item"><a class="sidebar__item-trigger">Другое</a>
                     <ul class="sidebar__inner">
                       <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 4s</a></li>
                       <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 5</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 5s с эксклюзивным дизайном</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 6</a></li>
+                      <li class="sidebar__inner-item"><a class="sidebar__inner-link">iPhone 6 plus</a></li>
                     </ul>
                   </li>
                 </ul>
               </div>
               <div class="content__page">
-                <ul class="content__list">
-                  <li class="content__list-item">
-                    <div class="content__item-inner">
-                      <div class="content__pic"><img src="//lorempixel.com/133/102"></div>
+                <ul class="content__list content__list_horizontal">
+                  <li class="content__item"><a class="content__item-inner">
+                      <div class="conten__pic"><img src="//lorempixel.com/133/102"></div>
                       <div class="content__text">
                         <div class="content__text-title">Apple Thunderbolt Display 27"</div>
-                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="content__list-item">
-                    <div class="content__item-inner">
-                      <div class="content__pic"><img src="//lorempixel.com/133/102"></div>
+                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг;</div>
+                      </div></a></li>
+                  <li class="content__item"><a class="content__item-inner">
+                      <div class="conten__pic"><img src="//lorempixel.com/133/102"></div>
                       <div class="content__text">
                         <div class="content__text-title">Apple Thunderbolt Display 27"</div>
-                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="content__list-item">
-                    <div class="content__item-inner">
-                      <div class="content__pic"><img src="//lorempixel.com/133/102"></div>
+                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг;</div>
+                      </div></a></li>
+                  <li class="content__item"><a class="content__item-inner">
+                      <div class="conten__pic"><img src="//lorempixel.com/133/102"></div>
                       <div class="content__text">
                         <div class="content__text-title">Apple Thunderbolt Display 27"</div>
-                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="content__list-item">
-                    <div class="content__item-inner">
-                      <div class="content__pic"><img src="//lorempixel.com/133/102"></div>
+                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг;</div>
+                      </div></a></li>
+                  <li class="content__item"><a class="content__item-inner">
+                      <div class="conten__pic"><img src="//lorempixel.com/133/102"></div>
                       <div class="content__text">
                         <div class="content__text-title">Apple Thunderbolt Display 27"</div>
-                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="content__list-item">
-                    <div class="content__item-inner">
-                      <div class="content__pic"><img src="//lorempixel.com/133/102"></div>
+                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг;</div>
+                      </div></a></li>
+                  <li class="content__item"><a class="content__item-inner">
+                      <div class="conten__pic"><img src="//lorempixel.com/133/102"></div>
                       <div class="content__text">
                         <div class="content__text-title">Apple Thunderbolt Display 27"</div>
-                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="content__list-item">
-                    <div class="content__item-inner">
-                      <div class="content__pic"><img src="//lorempixel.com/133/102"></div>
+                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг;</div>
+                      </div></a></li>
+                  <li class="content__item"><a class="content__item-inner">
+                      <div class="conten__pic"><img src="//lorempixel.com/133/102"></div>
                       <div class="content__text">
                         <div class="content__text-title">Apple Thunderbolt Display 27"</div>
-                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</div>
-                      </div>
-                    </div>
-                  </li>
-                  <li class="content__list-item">
-                    <div class="content__item-inner">
-                      <div class="content__pic"><img src="//lorempixel.com/133/102"></div>
+                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг;</div>
+                      </div></a></li>
+                  <li class="content__item"><a class="content__item-inner">
+                      <div class="conten__pic"><img src="//lorempixel.com/133/102"></div>
                       <div class="content__text">
                         <div class="content__text-title">Apple Thunderbolt Display 27"</div>
-                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг</div>
-                      </div>
-                    </div>
-                  </li>
+                        <div class="content__text-about">Артикул: 42787825, Опция: включена, Цвет: серебристый, Размер: 1280*1245*90, Вес: 9 кг;</div>
+                      </div></a></li>
                 </ul>
                 <div class="content__about">
                   <div class="content__about-title">Пара слов о магазине</div>
                   <div class="content__about-text">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
-                    <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio.</p>
+                    <p>Lorem ipsum  dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus sapien nunc eget odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor.</p>
                   </div>
                 </div>
               </div>
@@ -178,43 +189,49 @@
         </section>
       </div>
     </div>
-    <footer role="contentinfo">
+    <footer role="contentinfo" class="footer">
       <div class="container">
-        <div class="footer__logo"><img class="footer__logo-img"><span class="footer__logo-text">Эппл шоп</span></div>
-        <div class="footer__nav">
-          <ul class="footer__nav-list">
-            <li class="footer__nav-item">
-              <div class="footer__nav-title">О магазине
-                <li class="footer__nav-menu"><a class="footer__nav-link">О нас</a></li>
-                <li class="footer__nav-menu"><a class="footer__nav-link">Наши цены</a></li>
-                <li class="footer__nav-menu"><a class="footer__nav-link">Наши скидки</a></li>
-                <li class="footer__nav-menu"><a class="footer__nav-link">Акции</a></li>
-              </div>
-            </li>
-            <li class="footer__nav-item">
-              <div class="footer__nav-title">Каталог
-                <li class="footer__nav-menu"><a class="footer__nav-link">Смартфоны</a></li>
-                <li class="footer__nav-menu"><a class="footer__nav-link">Планшеты</a></li>
-                <li class="footer__nav-menu"><a class="footer__nav-link">Компьютеры</a></li>
-                <li class="footer__nav-menu"><a class="footer__nav-link">Аксесуары</a></li>
-              </div>
-            </li>
-            <li class="footer__nav-item">
-              <div class="footer__nav-title">Контакты
-                <li class="footer__nav-menu"><a class="footer__nav-link">Телефоны</a></li>
-                <li class="footer__nav-menu"><a class="footer__nav-link">Адреса</a></li>
-                <li class="footer__nav-menu"><a class="footer__nav-link">Карта проезда</a></li>
-                <li class="footer__nav-menu"><a class="footer__nav-link">Обратная связь</a></li>
-              </div>
-            </li>
-          </ul>
+        <div class="footer__logo"><img src="../img/logo/footer__logo.png" class="footer__logo-img">
+          <div class="footer__logo-text">ЭпплShop</div>
         </div>
-        <div class="footer__social">
-          <div class="footer__shops"><a class="footer__appstore"></a><a class="footer__googleplay"></a></div>
-          <ul class="footer__social-list">
-            <li class="footer__social-item"><a class="footer__social-link footer__social-link_vk"></a></li>
-            <li class="footer__social-item"><a class="footer__social-link footer__social-link_fb"></a></li>
-            <li class="footer__social-item"><a class="footer__social-link footer__social-link_tw"></a></li>
+        <ul class="footer__menu">
+          <li class="footer__menu-item">
+            <div class="footer__menu-title">О магазине</div>
+            <ul class="footer__menu-inners">
+              <li class="footer__menu-options"><a href="#" class="footer__menu-link">О нас</a></li>
+              <li class="footer__menu-options"><a href="#" class="footer__menu-link">Наши цены</a></li>
+              <li class="footer__menu-options"><a href="#" class="footer__menu-link">Наши скидки</a></li>
+              <li class="footer__menu-options"><a href="#" class="footer__menu-link">Акции</a></li>
+            </ul>
+          </li>
+          <li class="footer__menu-item">
+            <div class="footer__menu-title">Каталог</div>
+            <ul class="footer__menu-inners">
+              <li class="footer__menu-options"><a href="#" class="footer__menu-link">Смартфоны</a></li>
+              <li class="footer__menu-options"><a href="#" class="footer__menu-link">Планшеты</a></li>
+              <li class="footer__menu-options"><a href="#" class="footer__menu-link">Компьютеры</a></li>
+              <li class="footer__menu-options"><a href="#" class="footer__menu-link">Аксессуары</a></li>
+            </ul>
+          </li>
+          <li class="footer__menu-item">
+            <div class="footer__menu-title">Контакты</div>
+            <ul class="footer__menu-inners">
+              <li class="footer__menu-options"><a href="#" class="footer__menu-link">Телефоны</a></li>
+              <li class="footer__menu-options"><a href="#" class="footer__menu-link">Адреса</a></li>
+              <li class="footer__menu-options"><a href="#" class="footer__menu-link">Карта проезда</a></li>
+              <li class="footer__menu-options"><a href="#" class="footer__menu-link">Обратная связь</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="footer__socials">
+          <ul class="footer__socials-stores">
+            <li class="footer__socials-store"><a href="#" class="footer__socials-store-link"><img src="../img/icons/as.png"></a></li>
+            <li class="footer__socials-store"><a href="" class="footer__socials-store-link"><img src="../img/icons/gp.png"></a></li>
+          </ul>
+          <ul class="footer__socials-networks">
+            <li class="footer__socials-network footer__socials-network_vk"><a href="#" class="footer__socials-link"></a></li>
+            <li class="footer__socials-network footer__socials-network_fb"><a href="#" class="footer__socials-link"></a></li>
+            <li class="footer__socials-network footer__socials-network_tw"><a href="#" class="footer__socials-link"></a></li>
           </ul>
         </div>
       </div>

@@ -1,0 +1,46 @@
+@import "../_misc/_fonts";
+@import "../_misc/mixins";
+
+/* --------- sidebar --------- */
+
+.sidebar {
+	width: 230px;
+	float: left;
+}
+
+.sidebar__item-trigger {
+	display: block;
+	padding: 8px 0 8px 22px;
+	font-size: 15px;
+	line-height: 17px;
+	color: #5c7b98;
+	background: url("/img/decor/sidebar-border.png") 0 top repeat-x #f7f7f7;
+}
+
+.sidebar__inner-link {
+	background: url("/img/decor/tr-r.png") 3px 9px no-repeat;
+	.inlineblock;
+	font-size: 15px;
+	line-height: 17px;
+	color: #5c7b98;
+	padding: 6px 14px;
+}
+
+.sidebar__inner-item {
+	padding-left: 20px;
+	background: url("/img/decor/sidebar-border.png") 0 top repeat-x #f7f7f7;
+}
+
+.sidebar__item {
+	background: url("/img/decor/sidebar-border.png") 0 top repeat-x #f7f7f7;
+
+	&:first-child {
+		.sidebar__item-trigger {
+			background-image: none;
+		}
+	}
+}
+
+.sidebar__inner {
+	display: none;
+}
